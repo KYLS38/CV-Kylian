@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.personal-info ul,
+.education ul,
+.experience ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-info li,
+.education li,
+.experience li {
+    margin-bottom: 10px;
+}
+
+.education,
+.experience {
+    margin-top: 20px;
+}
+
+.experience strong {
+    font-size: 1.1em;
+}
+
+.experience p {
+    margin: 5px 0;
+}
+
+.experience ul {
+    padding-left: 20px;
+}
