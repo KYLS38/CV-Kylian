@@ -67,3 +67,19 @@ p {
   p:hover {
     border-left-color: #800000; /* Change la couleur de la bordure latérale au survol */
   }
+
+  a {
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a {
+    color: black;
+  }
+
+  a:hover {
+    color: blue;
+  }
