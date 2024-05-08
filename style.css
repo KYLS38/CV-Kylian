@@ -58,3 +58,12 @@ h2 {
 img {
     border-radius: 50%;
 }
+
+p {
+    border-left: 3px solid transparent; /* Ajoute une bordure latérale transparente à tous les paragraphes */
+    transition: border-left-color 0.3s ease; /* Ajoute une transition pour une animation fluide */
+    padding-left: 10px; /* Ajoute un espace à gauche pour séparer le texte de la bordure */
+  }
+  p:hover {
+    border-left-color: #800000; /* Change la couleur de la bordure latérale au survol */
+  }
