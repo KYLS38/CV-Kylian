@@ -83,3 +83,12 @@ a {
   a:hover {
     color: blue;
   }
+
+  .image {
+    transition: opacity 0.3s ease; /* Ajoute une transition pour une animation fluide */
+  }
+  
+  /* Change l'opacité de l'image lorsqu'elle est survolée */
+  .image:hover {
+    opacity: 0.5; /* Réduit l'opacité de l'image à 50% au survol */
+  }
